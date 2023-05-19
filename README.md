@@ -6,6 +6,8 @@ A small command line application that will take in an input file containing a st
 
 Clone the repository by running `git clone git@github.com:gspies/AddressCleaner.git`.
 
+Make sure your ruby version is at a minimum ruby-3. You can download and install ruby at this link if necessary: https://www.ruby-lang.org/en/documentation/installation/
+
 Once you are in the root directory of the repository, run `bundle install` to install the gems specified in the `Gemfile`.
 
 To setup the Smarty API, open the `src/address_cleaner.rb` add your personal `API key and Auth ID` respectively on lines 8 and 9.
